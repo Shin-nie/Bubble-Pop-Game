@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>LaoutBeautyPersonalUse-X3MjG.otf</string>
+		<string>CutneyPersonalUse-vmOvy.otf</string>
+		<string>InflateptxRegular-Wyg8V.ttf</string>
+		<string>InflateptxChrome-X3oPg.ttf</string>
+		<string>Reglisse-0WOD9.otf</string>
+		<string>HeiganBold-6RyyD.otf</string>
+	</array>
+</dict>
+</plist>

@@ -11,7 +11,15 @@ import SwiftUI
 struct BubblePopGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //  PUT MENUVIEW TO NAVIGATE
+            NavigationStack {
+                MenuView()
+            }
         }
+    }
+}
+#Preview {
+    NavigationStack {
+        MenuView()
     }
 }
