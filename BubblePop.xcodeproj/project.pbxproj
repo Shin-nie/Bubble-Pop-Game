@@ -71,7 +71,7 @@
 		49412F242BD83742006B6E8B /* Reglisse-0WOD9.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reglisse-0WOD9.otf"; sourceTree = "<group>"; };
 		49412F282BD8B6DD006B6E8B /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
 		496BF0122BDA2BC2005A4202 /* CustomColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomColour.swift; path = "BubblePopGame/CSS /CustomColour.swift"; sourceTree = SOURCE_ROOT; };
-		496F46962BC3828F003786BE /* BubblePopGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePopGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496F46962BC3828F003786BE /* BubblePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496F46992BC3828F003786BE /* BubblePopGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblePopGameApp.swift; sourceTree = "<group>"; };
 		496F469D2BC38290003786BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496F46A02BC38290003786BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		496F46972BC3828F003786BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				496F46962BC3828F003786BE /* BubblePopGame.app */,
+				496F46962BC3828F003786BE /* BubblePop.app */,
 				496F46A62BC38290003786BE /* BubblePopGameTests.xctest */,
 				496F46B02BC38290003786BE /* BubblePopGameUITests.xctest */,
 			);
@@ -247,9 +247,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		496F46952BC3828F003786BE /* BubblePopGame */ = {
+		496F46952BC3828F003786BE /* BubblePop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 496F46BA2BC38290003786BE /* Build configuration list for PBXNativeTarget "BubblePopGame" */;
+			buildConfigurationList = 496F46BA2BC38290003786BE /* Build configuration list for PBXNativeTarget "BubblePop" */;
 			buildPhases = (
 				496F46922BC3828F003786BE /* Sources */,
 				496F46932BC3828F003786BE /* Frameworks */,
@@ -259,9 +259,9 @@
 			);
 			dependencies = (
 			);
-			name = BubblePopGame;
+			name = BubblePop;
 			productName = BubblePopGame;
-			productReference = 496F46962BC3828F003786BE /* BubblePopGame.app */;
+			productReference = 496F46962BC3828F003786BE /* BubblePop.app */;
 			productType = "com.apple.product-type.application";
 		};
 		496F46A52BC38290003786BE /* BubblePopGameTests */ = {
@@ -336,7 +336,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				496F46952BC3828F003786BE /* BubblePopGame */,
+				496F46952BC3828F003786BE /* BubblePop */,
 				496F46A52BC38290003786BE /* BubblePopGameTests */,
 				496F46AF2BC38290003786BE /* BubblePopGameUITests */,
 			);
@@ -430,12 +430,12 @@
 /* Begin PBXTargetDependency section */
 		496F46A82BC38290003786BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 496F46952BC3828F003786BE /* BubblePopGame */;
+			target = 496F46952BC3828F003786BE /* BubblePop */;
 			targetProxy = 496F46A72BC38290003786BE /* PBXContainerItemProxy */;
 		};
 		496F46B22BC38290003786BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 496F46952BC3828F003786BE /* BubblePopGame */;
+			target = 496F46952BC3828F003786BE /* BubblePop */;
 			targetProxy = 496F46B12BC38290003786BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -568,6 +568,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BubblePopGame/Preview Content\"";
+				DEVELOPMENT_TEAM = JU6K3J62Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BubblePopGame/Info.plist;
@@ -597,6 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BubblePopGame/Preview Content\"";
+				DEVELOPMENT_TEAM = JU6K3J62Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BubblePopGame/Info.plist;
@@ -702,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		496F46BA2BC38290003786BE /* Build configuration list for PBXNativeTarget "BubblePopGame" */ = {
+		496F46BA2BC38290003786BE /* Build configuration list for PBXNativeTarget "BubblePop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				496F46BB2BC38290003786BE /* Debug */,
